@@ -1,13 +1,13 @@
 {
-  "homepage": "https://MOSAWAF.github.io/Movie-App",
   "name": "frontend",
+  "homepage": "https://mosawaf.github.io/Movie-App",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "base": "/Movie-App/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
